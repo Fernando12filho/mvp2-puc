@@ -1,17 +1,18 @@
 import './App.css';
-//import Contact from './Components/Contact.js';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Contact from './Components/Contact.js';
 import Home from './Components/Home.js';
-//import About from './Components/About.js';
+import About from './Components/About.js';
 
 function App() {
   return (
-    <div className="App">
-        <Home />
-        {/* 
-        <Contact />
-        <About />
-        */}
-    </div>
+    <Router className="App">
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/contact" element={<Contact />}/>
+          <Route path="/about" element={<About />}/>
+        </Routes>
+    </Router>
   );
 }
 

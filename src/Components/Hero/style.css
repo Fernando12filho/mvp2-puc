@@ -34,7 +34,8 @@
 
 .hero-text-container ul li a{
     text-decoration: none;
-    color: white;
+    color:black;
+    font-weight: bold;
 }
 
 .hero-text-container ul li a:hover{

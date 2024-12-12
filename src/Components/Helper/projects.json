@@ -1,16 +1,16 @@
 [
-    {
-      "id": 1,
-      "title": "Cryptocurrency Track Website",
-      "image": "https://via.placeholder.com/150/cryptocurrency-track",
-      "description": "A cryptocurrency investment tracking app.",
-      "link": ""
-    },
-    {
-      "id": 2,
-      "title": "F&F Gaming Academy Website",
-      "image": "https://via.placeholder.com/150/fnf-gaming",
-      "description": "E-Sports Gaming Academy, come have classes with us",
-      "link": ""
-    }
+  {
+    "id": 1,
+    "title": "Cryptocurrency Track Website",
+    "image": "./images/image.png",
+    "description": "A cryptocurrency investment tracking app.",
+    "link": "https://github.com/Fernando12filho/coinflow-frontEnd"
+  },
+  {
+    "id": 2,
+    "title": "F&F Gaming Academy Website",
+    "image": "./images/fnfesport-mvp2.png",
+    "description": "E-Sports Gaming Academy, come have classes with us",
+    "link": ""
+  }
 ]

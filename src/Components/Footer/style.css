@@ -4,8 +4,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position:static;
+    bottom: 0;
 }
 .footer a{
     text-decoration: none;
-    color: white;
+    color: black;
 }

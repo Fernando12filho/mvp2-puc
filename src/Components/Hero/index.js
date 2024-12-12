@@ -1,5 +1,6 @@
 import "./style.css";
 import fotoPerfil from "../../images/fotoperfil.jpeg"
+import { Link } from 'react-router-dom';
 
 function Hero() {
   return (
@@ -12,9 +13,9 @@ function Hero() {
           couple personal projects
         </p>
         <ul>
-            <li><a href="/">About me</a></li>
-            <li><a href="/">Contact</a></li>
-            <li><a href="/">Instagram</a></li>
+            <li><Link to="/about">About me</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/">Instagram</Link></li>
         </ul>
       </div>
       <div className="hero-image-container">

@@ -1,9 +1,10 @@
 import "./style.css"
+import { Link } from "react-router-dom";
 
 function Header() {
     return(
         <div className="header">
-            <a href="/">fernando.works</a>
+            <Link to="/">fernando.works</Link>
         </div>
     )
 }

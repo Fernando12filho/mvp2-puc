@@ -11,18 +11,27 @@
 .card{
     max-height: 225px;
     width: 33%;
+    max-width: 245px;
+    margin-right: 32px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: left;
+    height: 225px;
+    justify-content: space-around;
     padding: 32px;
+    border: solid black 1px;
+    border-radius: 8px;
 }
-
+.car a{
+    align-self: left;
+}
 .card img{
-
-    max-height: 225px;
-    width: 33%;
+    width: 100%;
     height: 100%;
-    width: auto;
+    max-height: 104px;
+    object-fit: cover;
+    border-radius: 8px;
 }
+
 
