@@ -2,6 +2,8 @@ import Header from "./Header";
 import Footer from "./Footer";
 import "./style.css";
 
+
+// secao sobre mim, na dmais, texto estatico, e importa header e footer 
 function About() {
   return (
     <div className="body">

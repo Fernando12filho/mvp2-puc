@@ -4,6 +4,8 @@ import Contact from './Components/Contact.js';
 import Home from './Components/Home.js';
 import About from './Components/About.js';
 
+//React Router eh aplicado 
+
 function App() {
   return (
     <Router className="App">

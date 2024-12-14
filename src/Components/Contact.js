@@ -2,6 +2,8 @@ import Footer from "./Footer";
 import Header from "./Header";
 import "./style.css";
 
+
+//Contato 
 function Contact() {
   return (
     <div className="body">

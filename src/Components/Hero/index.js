@@ -1,5 +1,4 @@
 import "./style.css";
-import fotoPerfil from "../../images/fotoperfil.jpeg"
 import { Link } from 'react-router-dom';
 
 function Hero() {
@@ -19,7 +18,7 @@ function Hero() {
         </ul>
       </div>
       <div className="hero-image-container">
-        <img src={fotoPerfil} alt="Foto do Fernando Melo Filho"/>
+        <img src="./images/fotoperfil.jpeg" alt="Foto do Fernando Melo Filho"/>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 .project-container{
     width: 80%;
+    padding: 32px;
     height: auto;
     display: flex;
     justify-content: center;
